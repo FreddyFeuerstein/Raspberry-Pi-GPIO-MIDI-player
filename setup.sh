@@ -4,11 +4,9 @@ sudo cp ./beep /usr/local/bin
 sudo chmod +x /usr/local/bin/beep
 rm beep
 rm beep.py
-cd ~
-mkdir midibeep
+mkdir ~/midibeep
 cd ./Raspberry-Pi-GPIO-MIDI-player
-mv -v -t ../midibeep *
-cd ..
-sudo rm -r ./Raspberry-Pi-GPIO-MIDI-player
-cd /home/pi/midibeep
+mv -v -t ~/midibeep *
+sudo rm -r ~/Raspberry-Pi-GPIO-MIDI-player
+rm ~/midibeep/setup.sh
 echo "Installation completed."
