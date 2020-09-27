@@ -4,8 +4,10 @@ sudo cp ./beep /usr/local/bin
 sudo chmod +x /usr/local/bin/beep
 rm beep
 rm beep.py
-mkdir ~/midibeep
-mv -r . ~/midibeep
+cd ~
+mkdir midibeep
+cd "./Raspberry-Pi-GPIO-MIDI-player"
+mv -v ./ "../midibeep"
 cd ..
 # If you get an error here, ignore it.
 rm -r Raspberry-Pi-GPIO-MIDI-player
