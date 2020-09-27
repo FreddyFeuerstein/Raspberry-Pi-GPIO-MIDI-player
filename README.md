@@ -24,3 +24,8 @@ Usage:
 ```
 python "/home/pi/midibeep/midi-buzzer.py" "/Path/To/My-Midi-File.mid"
 ```
+#
+Other features:
+
+· The 'beep' command (known from x86 Debian) will now work as expected on the Pi (if a speaker is hooked up to GPIO 18).
+· For soundcard users, an ALSA-compatible player is included in this project. It will play midis with the 'ffplay' command.
