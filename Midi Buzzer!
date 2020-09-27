@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Plays MIDI Files on GPIO 18.
+Terminal=true
+Name=Midi Buzzer!
+Exec=python "/home/pi/midibeep/midi-buzzer.py" 
+Type=Application
+Icon=multimedia-volume-control
