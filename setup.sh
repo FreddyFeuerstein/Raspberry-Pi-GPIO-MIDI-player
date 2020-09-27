@@ -7,8 +7,7 @@ rm beep.py
 mkdir ~/midibeep
 mv -r . ~/midibeep
 cd ..
-echo "If you get an error now, ignore it."
+# If you get an error here, ignore it.
 rm Raspberry-Pi-GPIO-MIDI-player
-rm Raspberry-Pi-GPIO-MIDI-player-master
 cd ~/midibeep
 echo "Installation completed."
