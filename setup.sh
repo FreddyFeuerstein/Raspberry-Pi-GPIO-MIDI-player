@@ -8,6 +8,6 @@ mkdir ~/midibeep
 mv -r . ~/midibeep
 cd ..
 # If you get an error here, ignore it.
-rm Raspberry-Pi-GPIO-MIDI-player
+rm -r Raspberry-Pi-GPIO-MIDI-player
 cd ~/midibeep
 echo "Installation completed."
