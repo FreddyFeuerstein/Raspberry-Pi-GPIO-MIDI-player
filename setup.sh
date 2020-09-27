@@ -6,10 +6,9 @@ rm beep
 rm beep.py
 cd ~
 mkdir midibeep
-cd "./Raspberry-Pi-GPIO-MIDI-player"
+cd ./Raspberry-Pi-GPIO-MIDI-player
 mv -v -t ../midibeep *
 cd ..
-# If you get an error here, ignore it.
-sudo rm -r Raspberry-Pi-GPIO-MIDI-player
-cd ~/midibeep
+sudo rm -r ./Raspberry-Pi-GPIO-MIDI-player
+cd /home/pi/midibeep
 echo "Installation completed."
